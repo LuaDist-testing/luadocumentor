@@ -1,7 +1,7 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'LuaDocumentor'
-version = '0.1.4-1'
+version = '0.1.5-1'
 description = {
   summary = 'LuaDocumentor allow users to generate HTML and API files from code documented using Lua documentation language.',
   detailed = [[
@@ -14,20 +14,20 @@ description = {
 }
 -- LuaDist source
 source = {
-  tag = "0.1.4-1",
+  tag = "0.1.5-1",
   url = "git://github.com/LuaDist-testing/luadocumentor.git"
 }
 -- Original source
 -- source = {
 --   url = 'git://github.com/LuaDevelopmentTools/luadocumentor.git',
---   tag = 'v0.1.4-1'
+--   tag = 'v0.1.5-1'
 -- }
 dependencies = {
   'lua ~> 5.1',
   'luafilesystem ~> 1.6',
   'markdown ~> 0.32',
-  'metalua-compiler ~> 0.7.2',
-  'penlight ~> 0.9.8'
+  'metalua-compiler ~> 0.7',
+  'penlight ~> 0.9'
 }
 build = {
   type = 'builtin',
